@@ -1,12 +1,16 @@
-# React + Vite
+# 📱 Instagram Reels-like Stories Viewer (Mobile-Only)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simplified mobile-only version of the Instagram Reels / Stories feature. It allows users to view a series of image posts by scrolling vertically or tapping on the screen. The app is optimized for mobile viewports and mimics the core behavior of Instagram's story/reels interface.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Vertical scrollable story feed (one image per screen)
+- ✅ Tap right side of screen to go to the next story
+- ✅ Tap left side of screen to go to the previous story
+- ✅ Full image is shown using `object-fit: contain`
+- ✅ No external libraries used — pure React + CSS
+- ✅ Smooth transitions using `scrollTo`
+- ✅ Mobile-first, responsive design
 
-## Expanding the ESLint configuration
+## 📁 Folder Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
